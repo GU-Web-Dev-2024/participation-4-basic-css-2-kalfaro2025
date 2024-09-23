@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fall Weather Forecast</title>
-    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--Internal style-->
+    <style>
+        h1 {
 
+            font-size: 40px;
+            margin: 4px;
+            padding: 3px;
+            color: teal;
+        } 
+        .day {
 
-    <!-- Embedded styles will go here -->
-
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: palegreen;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Fall Weather Forecast</h1>
+    <!--Inline style-->
+    <h1 style="text-align: center;">Fall Weather Forecast</h1>
     <div class="forecast">
         <p class="day">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
         <p class="day">Wednesday: Rainy, 50°F</p>
     </div>
-
     <!-- Example of where inline styles can be added -->
     <footer style="text-align: center;">Last updated: September 22</footer>
 </body>
-
 </html>
